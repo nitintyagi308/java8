@@ -1,3 +1,5 @@
+package com.sample.functionInterface;
+
 /**
  * This class is used to write functional interface code.
  */
@@ -36,7 +38,7 @@ public class FunctionalINterfaceTest {
         System.out.println(funInterfaceWithObjectClassMethod.toString()); // This line will print the hashCode.
 
         //We can define anonymous class to see toString and equals method functionality.
-        //Objects class public method implictily avialble for an interface irespective its declared in interface or not. If we comment toString() and equals() from FunInterfaceWithObjectClassMethod then below code will work.
+        //Objects class public method implictily avialble for an interface irespective its declared in interface or not. If we comment toString() and equals() from com.sample.functionInterface.FunInterfaceWithObjectClassMethod then below code will work.
         FunInterfaceWithObjectClassMethod funInterfaceWithObjectClassMethod1 = new FunInterfaceWithObjectClassMethod() {
             @Override
             public int calculate(int x, int y) {
